@@ -35,6 +35,11 @@ header .conteiner{
     src: url(Bad.ttf.ttf);
 }
 
+@font-face {
+    font-family:myfont2 ;
+    src: url(SimplicityDemo.ttf);
+}
+
 /* Blasphemous II icone no meio la em cima ali  memo */
 header .conteiner img {
     height: 80px;
@@ -120,8 +125,14 @@ footer {
 
 /* Fonte Dos Titulo Footer + Cor */
 footer h3{
-    font-family:serif;
-    color:rgb(255, 255, 255);   
+    font-size: 30px;
+    font-family:myfont2;
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+    background:linear-gradient(#fe0000, #ff2f00, rgb(115, 0, 0), rgb(38, 0, 0) );
+    display: flex;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;   
 }
 
 /* Social Area Footer em baixo */
