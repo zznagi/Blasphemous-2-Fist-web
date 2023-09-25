@@ -86,7 +86,6 @@ main h1{
 
 main .nevada .conteiner {
     display: flex;
-    margin:50px ;
     align-items:center;
     justify-content: space-between;
 }
@@ -95,7 +94,7 @@ main .nevada .conteiner {
 
 /* Imagem Principal BlasphemousII */
 section .conteiner img{
-    display: flex;
+    margin: 50px 0 0 50px;
     height: 290px;
     border: rgb(44, 24, 0) solid 5px;
     box-shadow: 5px 0px 9px;
@@ -107,7 +106,7 @@ section .icons-mark img{
 }
 /* Ajuste Icone Plataforma Jogo */
 .icons-mark {
-    margin: 0px 50px;
+    margin: 0px 0px 0px 50px;
 }
 
 
